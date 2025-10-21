@@ -1,0 +1,16 @@
+[general]
+# Server configuration
+server_name = "pubky-homeserver-mvp"
+
+[server]
+# The socket address to bind the HTTP server
+listen_socket = "127.0.0.1:8080"
+
+[storage]
+# Path where data will be stored
+# Will be created relative to the data directory
+db_path = "data/lmdb"
+
+[logging]
+# Log level: "trace", "debug", "info", "warn", "error"
+level = "info"
