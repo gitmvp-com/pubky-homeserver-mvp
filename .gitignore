@@ -1,0 +1,22 @@
+# Rust
+target/
+Cargo.lock
+
+# Data directories
+data/
+*.mdb
+*.lmdb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config files (keep sample)
+config.toml
